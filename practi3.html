@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{margin:0; padding:0;}
+    /* 흰바탕 */
+    .table{
+      width: 100vw;
+      height: 100vh;
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    /* 왼쪽도형 */
+    .left{
+      width: 40vw;
+      height: 60vh;
+      display: flex;
+    }
+    .left>div:nth-child(1){
+      width: 20vw;
+      height: 60vh;
+      background-color: #c4c4c4;
+      border:1px solid black;
+    }
+    .left>div:nth-child(2){
+      width: 20vw;
+      height: 30vh;
+      background-color: #c4c4c4;
+      border:1px solid black;
+      position:relative;
+      top:50%;
+    }
+    /* 오른쪽도형 */
+    .right{
+      width: 40vw;
+      height: 60vh;
+      display: flex;
+    }
+    .right>div:nth-child(1){
+      width: 20vw;
+      height: 30vh;
+      background-color: #c4c4c4;
+      border:1px solid black;
+    }
+    .right>div:nth-child(2){
+      width: 20vw;
+      height: 60vh;
+      background-color: #c4c4c4;
+      border:1px solid black;
+    }
+    /* 이렇게하는게 맞나요ㅠㅠ? 줄였을때 서로 합쳐져야하나요? */
+  </style>
+</head>
+<body>
+  <div class="table">
+
+    <div class="left">
+      <div></div>
+      <div></div>
+    </div>
+
+    <div class="right">
+      <div></div>
+      <div></div>
+    </div>
+
+  </div>
+  
+</body>
+</html>
